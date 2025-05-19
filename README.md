@@ -20,18 +20,24 @@ The **Student Records Management System (SRMS)** is a comprehensive database sol
 ## **Steps to Set Up the Project**
 1. **Create the Database:**
     * Open your MySQL client and create a new database for the SRMS.
+```
     CREATE DATABASE srms;
     USE srms;
+```
 2. **Create the Tables:**
     * Run the following [SQL script](./CREATE-TABLES-statements.sql) to create the necessary tables in the database.
 
 3. **Import the SQL Script:**
     * Alternatively, you can save the above [SQL script](./CREATE-TABLES-statements.sql) to a file (e.g., srms_setup.sql) and import it into your database using the following command:
+```
     mysql -u your_username -p srms < path/to/srms_setup.sql
+```
 
 4. **Verify the Setup:**
     * Ensure that the tables have been created successfully by running the following query:
+```
     SHOW TABLES;
+```
 
 ## **Additional Notes**
 * **Security:** Ensure that your MySQL server is configured securely, especially if it is accessible over a network.
