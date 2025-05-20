@@ -26,6 +26,7 @@ The **Student Records Management System (SRMS)** is a comprehensive database sol
 ```
 2. **Create the Tables:**
     * Run the following [SQL script](./CREATE-TABLES-statements.sql) to create the necessary tables in the database.
+    * Here is the [**ERD**](./ERD.png) for the SRMS showing the tables and their relationships.
 
 3. **Import the SQL Script:**
     * Alternatively, you can save the above [SQL script](./CREATE-TABLES-statements.sql) to a file (e.g., srms_setup.sql) and import it into your database using the following command:
